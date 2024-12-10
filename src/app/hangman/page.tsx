@@ -1,8 +1,8 @@
 'use client'
-
+import './hangman.css'
 import { useState, FormEvent, useEffect } from 'react'
 import { useRouter } from 'next/router'
-import { blockchainWordList } from './hangman/wordList'
+import { blockchainWordList } from './wordList'
 export default function Home() {
   // const [inputVal, setInputVal] = useState('')
   // const { push } = useRouter()
